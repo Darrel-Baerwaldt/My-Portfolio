@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./App.css";
+import Footer from "./components/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -49,6 +50,8 @@ class App extends Component {
               </Nav>
             </Navbar.Collapse>
           </Navbar>
+
+          <Footer />
         </Container>
         {/* <App /> */}
         {/* document.getElementById("root"); */}
