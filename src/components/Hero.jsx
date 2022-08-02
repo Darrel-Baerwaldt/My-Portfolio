@@ -1,4 +1,5 @@
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'react-bootstrap';
+import '../../src/hero.css';
 
 const Hero = (props) => {
   return (

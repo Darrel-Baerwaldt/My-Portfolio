@@ -1,5 +1,5 @@
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
             Darrel Baerwaldt
           </Col>
           <Col className="p-0 d-flex justify-content-end" md={3}>
-            This site was made by Darrel Baerwaldt.
+            This site was created by Darrel Baerwaldt.
           </Col>
         </Row>
       </Container>
